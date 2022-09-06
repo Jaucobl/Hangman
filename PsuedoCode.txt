@@ -1,0 +1,7 @@
+First we would ask the user for a word that is going to be guessed
+Create the variable that the word would be stored in
+Take the length of the word and create a number of underscores equal to it
+Then we would ask another user for a letter guess
+If the letter is in the word, put the letter in its original position
+Repeat asking the user for a letter until the user runs out of guesses or the word is guessed
+
