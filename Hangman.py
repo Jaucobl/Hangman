@@ -1,4 +1,11 @@
 #Create the gallow that the man would be hanged upon
+print(----------)
+print(|        |)
+print(|        |)
+print(|)
+print(|)
+print(|)
+print(-----------)
 #First we would ask the user for a word that is going to be guessed
 word = input("enter a word or sentence without punctuation")
 #Create the variable that the word would be stored in
