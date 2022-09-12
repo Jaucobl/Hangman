@@ -12,7 +12,8 @@ words = input("enter a word or sentence without punctuation")
 #Clear the word off of the screen
 #Take the length of the word and create a number of underscores equal to it
 length = len(words)
-
+list(words)
+words[:]
 #If there are spaces in users input, keep them as spaces
 #Then we would ask another user for a letter guess
 #If the letter is in the word, put the letter in its original position
