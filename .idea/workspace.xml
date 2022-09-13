@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96cd2eca-c7ca-40ed-ba1a-6b760add55de" name="Changes" comment="T" />
+    <list default="true" id="96cd2eca-c7ca-40ed-ba1a-6b760add55de" name="Changes" comment="T">
+      <change beforePath="$PROJECT_DIR$/Hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hangman.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +54,7 @@
       <workItem from="1662565856098" duration="117000" />
       <workItem from="1662565993818" duration="1060000" />
       <workItem from="1663011464719" duration="3212000" />
+      <workItem from="1663094505391" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="T">
       <created>1662566347930</created>
@@ -89,6 +92,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="T" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Hangman$Hangman.coverage" NAME="Hangman Coverage Results" MODIFIED="1663047195750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hangman$Hangman.coverage" NAME="Hangman Coverage Results" MODIFIED="1663094835179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

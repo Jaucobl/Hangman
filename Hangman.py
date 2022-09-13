@@ -16,8 +16,12 @@ for each in list(words):
         new.append("_")
     else:
         new.append(" ")
+show = ""
+for each in new:
+    show += each
 
-print(new)
+print(show)
+
 #Take the length of the word and create a number of underscores equal to it
 #If there are spaces in users input, keep them as spaces
 #Then we would ask another user for a letter guess
