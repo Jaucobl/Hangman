@@ -23,16 +23,33 @@ for each in new:
 print(show)
 
 #Take the length of the word and create a number of underscores equal to it
-length = len(words)
-list(words)
+
 ## Figure out how to output the underscore and spaces correctly
-for idx, value in enumerate(list(words)):
-	if value != " ":
-		list(words)[value] = '_'
+
 
 
 #If there are spaces in users input, keep them as spaces
 #Then we would ask another user for a letter guess
+
+
+def guess(counter):
+	letter = input("enter a one letter guess please")
+	for idx, value in enumerate(list(words)):
+		if value == letter:
+			new[idx] = value
+			print(value)
+		else:
+			print("Incorrect guess, try again.")
+			counter += 1
+			
+			## what went wrong in new code (not on my comp): 
+
+
+while counter < 10:
+	guess(counter)
+
+print("game over")
+
 #If the letter is in the word, put the letter in its original position
 #Repeat asking the user for a letter #If they succeed, then display a you won screen and then offer an option to restartuntil the user runs out of guesses or the word is guessed
 #If they fail then after the hangman dies, display a game over screen and then offer an option to restart
