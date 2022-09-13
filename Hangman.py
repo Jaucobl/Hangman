@@ -13,7 +13,12 @@ words = input("enter a word or sentence without punctuation")
 #Take the length of the word and create a number of underscores equal to it
 length = len(words)
 list(words)
-words[:]
+## Figure out how to output the underscore and spaces correctly
+for idx, value in enumerate(list(words)):
+	if value != " ":
+		list(words)[value] = '_'
+
+
 #If there are spaces in users input, keep them as spaces
 #Then we would ask another user for a letter guess
 #If the letter is in the word, put the letter in its original position
