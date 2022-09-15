@@ -24,6 +24,7 @@ for each in gameboard:
 print(show)
 
 #Take the length of the word and create a number of underscores equal to it
+
 ## Figure out how to output the underscore and spaces correctly
 #If there are spaces in users input, keep them as spaces
 #Then we would ask another user for a letter guess
@@ -45,6 +46,9 @@ while counter < 10:
 
 
 print("Game Over")
+
+
+## Figure out how to output the underscore and spaces correctly
 
 
 
