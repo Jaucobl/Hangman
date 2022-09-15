@@ -42,7 +42,8 @@ def guess(counter):
 			print("Incorrect guess, try again.")
 			counter += 1
 			
-			## what went wrong in new code (not on my comp): 
+			## what went wrong in new code (not on my comp): something wrong with gameboard and list words
+			## gameboard[idx] throwing me off
 
 
 while counter < 10:
