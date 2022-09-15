@@ -41,8 +41,15 @@ def guess(counter):
         print("Incorrect Gueess Try Again!")
 
 counter = 0
+win = True
 while counter < 10:
+    for each in gameboard:
+        if each == "_":
+            win = False
     guess(counter)
+    if win == True:
+        print "You Win!"
+    win = True
 
 
 print("Game Over")
