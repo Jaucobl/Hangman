@@ -41,18 +41,17 @@ def guess(counter):
         print("Incorrect Gueess Try Again!")
 
 counter = 0
-win = True
+win = False
 while counter < 10:
-    for each in gameboard:
-        if each == "_":
+    if "_" in gameboard:
             win = False
+        if  win == True:
+            print("You Win!")
+            exit()
     guess(counter)
-    if win == True:
-        print "You Win!"
-    win = True
-
-
-print("Game Over")
+    win = False
+    if counter > 10:
+        print("Game Over")
 
 
 ## Figure out how to output the underscore and spaces correctly
