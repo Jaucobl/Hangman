@@ -39,8 +39,7 @@ def guess(counter):
         print("".join(gameboard))
         return True
     else:
-        print("Incorrect Gueess Try Again!")
-        print(counter)
+        print("Incorrect Guess!")
         return False
 
 counter = 0
@@ -54,13 +53,12 @@ while counter < 10:
             print("You Win!")
             exit()###if no underscore left, then they won
     else:
-        if counter < 10: ###if there is anymore strikes left
+        if counter < 9: ###if there is anymore strikes left
             counter += 1
             continue ###guess again
         else:           ###else if not anymore strikes left, game over
             print("Game Over!")
             exit()
-
 
 
 #the game starts with zero guesses 
